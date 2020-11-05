@@ -5,7 +5,7 @@ use serenity::{
     prelude::*,
 };
 mod commanders;
-use commanders::Utils::UTILITIES_GROUP;
+use commanders::utils::UTILITIES_GROUP;
 use std::env;
 
 #[tokio::main]
